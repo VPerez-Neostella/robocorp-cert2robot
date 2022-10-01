@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220928 16:52:46.690" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\victor.perez\.vscode\extensions\robocorp.robotframework-lsp-1.1.3\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Click Button When Visible" library="RPA.Browser">
+<arg>&lt;button type="button" class="btn btn-dark"&gt;OK&lt;/button&gt;</arg>
+<doc>Click button identified by ``locator``, once it becomes visible.</doc>
+<msg timestamp="20220928 17:06:07.924" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20220928 17:06:07.923" endtime="20220928 17:06:07.933"/>
+</kw>
+<kw name="Open Available Browser https://robotsparebinindustries.com/#/robot-order">
+<msg timestamp="20220928 17:06:45.475" level="FAIL">No keyword with name 'Open Available Browser https://robotsparebinindustries.com/#/robot-order' found.</msg>
+<status status="FAIL" starttime="20220928 17:06:45.475" endtime="20220928 17:06:45.475"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20220928 17:06:58.342" endtime="20220928 17:07:04.901"/>
+</kw>
+<kw name="Click Button When Visible" library="RPA.Browser">
+<arg>&lt;button type="button" class="btn btn-dark"&gt;OK&lt;/button&gt;</arg>
+<doc>Click button identified by ``locator``, once it becomes visible.</doc>
+<msg timestamp="20220928 17:07:18.130" level="FAIL">Element '&lt;button type="button" class="btn btn-dark"&gt;OK&lt;/button&gt;' not visible after 5 seconds.</msg>
+<status status="FAIL" starttime="20220928 17:07:12.729" endtime="20220928 17:07:18.133"/>
+</kw>
+<kw name="Click Button When Visible" library="RPA.Browser">
+<arg>OK</arg>
+<doc>Click button identified by ``locator``, once it becomes visible.</doc>
+<msg timestamp="20220928 17:07:39.622" level="FAIL">Element 'OK' not visible after 5 seconds.</msg>
+<status status="FAIL" starttime="20220928 17:07:34.248" endtime="20220928 17:07:39.623"/>
+</kw>
+<kw name="Click Button When Visible" library="RPA.Browser">
+<arg>btn.btn.dark</arg>
+<doc>Click button identified by ``locator``, once it becomes visible.</doc>
+<msg timestamp="20220928 17:09:01.925" level="FAIL">Element 'btn.btn.dark' not visible after 5 seconds.</msg>
+<status status="FAIL" starttime="20220928 17:08:56.839" endtime="20220928 17:09:01.926"/>
+</kw>
+<kw name="Click Button When Visible" library="RPA.Browser">
+<arg>btn.btn-dark</arg>
+<doc>Click button identified by ``locator``, once it becomes visible.</doc>
+<msg timestamp="20220928 17:09:12.173" level="FAIL">Element 'btn.btn-dark' not visible after 5 seconds.</msg>
+<status status="FAIL" starttime="20220928 17:09:07.097" endtime="20220928 17:09:12.174"/>
+</kw>
+<kw name="Click Button When Visible" library="RPA.Browser">
+<arg>btn btn-dark</arg>
+<doc>Click button identified by ``locator``, once it becomes visible.</doc>
+<msg timestamp="20220928 17:09:25.488" level="FAIL">Element 'btn btn-dark' not visible after 5 seconds.</msg>
+<status status="FAIL" starttime="20220928 17:09:20.389" endtime="20220928 17:09:25.489"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser">
+<arg>btn btn-dark</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220928 17:09:33.310" level="FAIL">Button with locator 'btn btn-dark' not found.</msg>
+<status status="FAIL" starttime="20220928 17:09:33.214" endtime="20220928 17:09:33.312"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser">
+<arg>Ok</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220928 17:09:39.473" level="FAIL">Button with locator 'Ok' not found.</msg>
+<status status="FAIL" starttime="20220928 17:09:39.374" endtime="20220928 17:09:39.474"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser">
+<arg>OK</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" starttime="20220928 17:09:47.616" endtime="20220928 17:09:47.733"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>form-group</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:43:25.095" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0034DF13+2219795]
+	Ordinal0 [0x002E2841+1779777]
+	Ordinal0 [0x001F4100+803072]
+	Ordinal0 [0x001E9BF2+760818]
+	Ordinal0 [0x001DCD35+707893]
+	Ordinal0 [0x001E1122+725282]
+	Ordinal0 [0x001E5699+743065]
+	Ordinal0 [0x001F5610+808464]
+	Ordinal0 [0x0024E93A+1173818]
+	Ordinal0 [0x0023E616+1107478]
+	Ordinal0 [0x00217F89+950153]
+	Ordinal0 [0x00218F56+954198]
+	GetHandleVerifier [0x00642CB2+3040210]
+	GetHandleVerifier [0x00632BB4+2974420]
+	GetHandleVerifier [0x003E6A0A+565546]
+	GetHandleVerifier [0x003E5680+560544]
+	Ordinal0 [0x002E9A5C+1808988]
+	Ordinal0 [0x002EE3A8+1827752]
+	Ordinal0 [0x002EE495+1827989]
+	Ordinal0 [0x002F80A4+1867940]
+	BaseThreadInitThunk [0x767AFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77847A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77847A6E+238]
+</msg>
+<status status="FAIL" starttime="20220930 15:43:04.171" endtime="20220930 15:43:25.110"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20220930 15:43:38.445" endtime="20220930 15:43:51.918"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>form-group</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:44:02.450" level="FAIL">No radio button with name 'form-group' and value '1' found.</msg>
+<status status="FAIL" starttime="20220930 15:44:02.290" endtime="20220930 15:44:02.451"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>radio form-check</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:44:41.128" level="FAIL">No radio button with name 'radio form-check' and value '1' found.</msg>
+<status status="FAIL" starttime="20220930 15:44:41.040" endtime="20220930 15:44:41.129"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>radio form-check</arg>
+<arg>Roll-a-thor body</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:45:00.863" level="FAIL">No radio button with name 'radio form-check' and value 'Roll-a-thor body' found.</msg>
+<status status="FAIL" starttime="20220930 15:45:00.754" endtime="20220930 15:45:00.864"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>radio form-check</arg>
+<arg>id-body-1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:46:40.595" level="FAIL">No radio button with name 'radio form-check' and value 'id-body-1' found.</msg>
+<status status="FAIL" starttime="20220930 15:46:40.507" endtime="20220930 15:46:40.596"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>radio form-check</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:47:02.090" level="FAIL">No radio button with name 'radio form-check' and value '1' found.</msg>
+<status status="FAIL" starttime="20220930 15:47:02.001" endtime="20220930 15:47:02.091"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>2. Body:</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:47:27.175" level="FAIL">No radio button with name '2. Body:' and value '1' found.</msg>
+<status status="FAIL" starttime="20220930 15:47:27.065" endtime="20220930 15:47:27.176"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>2. Body:</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:47:33.676" level="FAIL">No radio button with name '2. Body:' and value '1' found.</msg>
+<status status="FAIL" starttime="20220930 15:47:33.585" endtime="20220930 15:47:33.677"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220930 15:49:20.172" level="FAIL">Keyword 'RPA.Browser.Select Radio Button' expected 2 arguments, got 1.</msg>
+<status status="FAIL" starttime="20220930 15:49:20.170" endtime="20220930 15:49:20.172"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>body</arg>
+<arg>1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" starttime="20220930 15:49:36.459" endtime="20220930 15:49:36.506"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>body</arg>
+<arg>2</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" starttime="20220930 15:49:41.225" endtime="20220930 15:49:41.276"/>
+</kw>
+<kw name="Select Radio Button" library="RPA.Browser">
+<arg>body</arg>
+<arg>2</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" starttime="20220930 15:49:44.163" endtime="20220930 15:49:44.176"/>
+</kw>
+<kw name="Select From List By Index" library="RPA.Browser">
+<arg>css#head</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20220930 15:50:06.193" level="FAIL">List with locator 'css#head' not found.</msg>
+<status status="FAIL" starttime="20220930 15:50:06.000" endtime="20220930 15:50:06.195"/>
+</kw>
+<kw name="Select From List By Index" library="RPA.Browser">
+<arg>head</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" starttime="20220930 15:50:14.515" endtime="20220930 15:50:14.592"/>
+</kw>
+<kw name="Select From List By Index" library="RPA.Browser">
+<arg>id#head</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20220930 15:50:35.850" level="FAIL">List with locator 'id#head' not found.</msg>
+<status status="FAIL" starttime="20220930 15:50:35.771" endtime="20220930 15:50:35.851"/>
+</kw>
+<kw name="Select From List By Index" library="RPA.Browser">
+<arg>id:head</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" starttime="20220930 15:50:40.705" endtime="20220930 15:50:40.769"/>
+</kw>
+<kw name="Select From List By Index" library="RPA.Browser">
+<arg>id:head</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" starttime="20220930 15:50:46.467" endtime="20220930 15:50:46.568"/>
+</kw>
+<kw name="Select From List By Index" library="RPA.Browser">
+<arg>id:head</arg>
+<arg>0</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" starttime="20220930 15:51:03.731" endtime="20220930 15:51:03.792"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>for:1664571296926</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:56:04.049" level="FAIL">Element with locator 'for:1664571296926' not found.</msg>
+<status status="FAIL" starttime="20220930 15:56:03.924" endtime="20220930 15:56:04.050"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>1664571296926</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20220930 15:56:10.564" endtime="20220930 15:56:10.664"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>1664571296926</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:56:20.708" level="FAIL">Element with locator '1664571296926' not found.</msg>
+<status status="FAIL" starttime="20220930 15:56:20.577" endtime="20220930 15:56:20.709"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>Legs</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:57:39.160" level="FAIL">Element with locator 'Legs' not found.</msg>
+<status status="FAIL" starttime="20220930 15:57:39.058" endtime="20220930 15:57:39.161"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>3. Legs:</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:57:47.472" level="FAIL">Element with locator '3. Legs:' not found.</msg>
+<status status="FAIL" starttime="20220930 15:57:47.354" endtime="20220930 15:57:47.473"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>label:3. Legs:</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:58:01.249" level="FAIL">Element with locator 'label:3. Legs:' not found.</msg>
+<status status="FAIL" starttime="20220930 15:58:01.148" endtime="20220930 15:58:01.251"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>label:3</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:58:10.089" level="FAIL">Element with locator 'label:3' not found.</msg>
+<status status="FAIL" starttime="20220930 15:58:09.987" endtime="20220930 15:58:10.090"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>label#3. Legs:</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 15:58:16.901" level="FAIL">Element with locator 'label#3. Legs:' not found.</msg>
+<status status="FAIL" starttime="20220930 15:58:16.795" endtime="20220930 15:58:16.902"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>placeholder:Enter the part number for the legs</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 16:00:27.168" level="FAIL">Element with locator 'placeholder:Enter the part number for the legs' not found.</msg>
+<status status="FAIL" starttime="20220930 16:00:27.090" endtime="20220930 16:00:27.169"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>placeholder:Form control</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 16:00:49.755" level="FAIL">Element with locator 'placeholder:Form control' not found.</msg>
+<status status="FAIL" starttime="20220930 16:00:49.667" endtime="20220930 16:00:49.755"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>xpath://*[@placeholder="Enter the part number for the legs"]</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20220930 16:02:27.324" endtime="20220930 16:02:27.425"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>xpath://*[@label="3. Legs"]</arg>
+<arg>1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220930 16:03:23.996" level="FAIL">Element with locator 'xpath://*[@label="3. Legs"]' not found.</msg>
+<status status="FAIL" starttime="20220930 16:03:23.915" endtime="20220930 16:03:23.997"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser">
+<arg>xpath://*[@placeholder="Enter the part number for the legs"]</arg>
+<arg>1</arg>
+<doc>
